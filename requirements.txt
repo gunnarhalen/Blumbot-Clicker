@@ -1,5 +1,6 @@
 pyautogui
 pygetwindow
-termcolor
 keyboard
 pynput
+opencv-python
+numpy
