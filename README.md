@@ -41,9 +41,9 @@ Ou faça o [download do .zip](https://github.com/gunnarhalen/Blumbot-Clicker/arc
     
 ### 2. Abra diretório e execute o Blumbot
 
-Certifique-se de que o Blum está aberto antes de executar o bot.
+Certifique-se de que o Blum está aberto antes de executar.
 
-Abra o Prompt de Comando no Windows, navegue até a pasta do Blumbot e execute os comandos abaixo para instalar as dependências e executar o Blumbot Clicker:
+Abra o Prompt de Comando no Windows, navegue até a pasta do Blumbot e execute os comandos abaixo para instalar as dependências e iniciar o Blumbot Clicker:
 
 **Instalar dependências**
 ```bash
