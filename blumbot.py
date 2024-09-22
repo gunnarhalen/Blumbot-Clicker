@@ -18,14 +18,19 @@ def anjaymabar():
 ░▒▓███████▓▒░░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░     
 ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░     
 ░▒▓███████▓▒░░▒▓████████▓▒░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░ ░▒▓██████▓▒░  ░▒▓█▓▒░  
-  by Peralta   
+      | |(_)     | |                
+  ____| | _  ____| |  _ _____  ____ 
+ / ___) || |/ ___) |_/ ) ___ |/ ___)
+( (___| || ( (___|  _ (| ____| |    
+ \____)\_)_|\____)_| \_)_____)_|
+   V2.0 by Peralta
     """)
 
 anjaymabar()
 print()
-print(":::::::::::::::::::: ESCOLHA A JANELA DO TELEGRAM COM BLUM ::::::::::::::::::::")
+print(":::::: ESCOLHA A JANELA DO TELEGRAM COM BLUM ::::::")
 
-window_input = f"Choose Window (1 - TelegramDesktop): "
+window_input = f"Escolha a janela (1 - TelegramDesktop): "
 window_not_found = f"Janela {{}} não encontrada!"
 window_found = f"Janela encontrada: {{}}\n Iniciando bot... Aperte 'K' no teclado para pausar/reiniciar o Blumbot."
 pause_message = f"Blumbot pausado... Aperte 'K' novamente para continuar."
