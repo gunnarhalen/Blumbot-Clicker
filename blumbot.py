@@ -23,7 +23,7 @@ def anjaymabar():
  / ___) || |/ ___) |_/ ) ___ |/ ___)
 ( (___| || ( (___|  _ (| ____| |    
  \____)\_)_|\____)_| \_)_____)_|
-   V2.0 by Peralta
+   V2.0.1 by Peralta
     """)
 
 anjaymabar()
@@ -32,7 +32,7 @@ print(":::::: ESCOLHA A JANELA DO TELEGRAM COM BLUM ::::::")
 
 window_input = f"Escolha a janela (1 - TelegramDesktop): "
 window_not_found = f"Janela {{}} não encontrada!"
-window_found = f"Janela encontrada: {{}}\n Iniciando bot... Aperte 'K' no teclado para pausar/reiniciar o Blumbot."
+window_found = f"Iniciando bot... Aperte 'K' no teclado para pausar/reiniciar o Blumbot."
 pause_message = f"Blumbot pausado... Aperte 'K' novamente para continuar."
 continue_message = f"Blumbot reiniciado..."
 
@@ -109,8 +109,9 @@ else:
                 print("Iniciando jogo.")
                 button_clicked = True
             else:
-                print("Botão não encontrado. Aguardando...")
-                continue
+                print("Você não tem fichas para iniciar o jogo...")
+                break  # Encerra o loop se o botão não for encontrado
+
 
         # Loop de jogar clicando nas cores
         scrn = pyautogui.screenshot(region=(window_rect[0], window_rect[1], window_rect[2], window_rect[3]))
